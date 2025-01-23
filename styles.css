@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centre verticalement */
+    align-items: center;    /* Centre horizontalement */
+    height: 100vh;
+    background: url('fondp.png') no-repeat center center/cover;
+    font-family: 'Arial', sans-serif;
+    color: white;
+}
+
+/* Bouton principal */
+.main-button {
+    padding: 20px 50px;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    background: linear-gradient(45deg, #007BFF, #0056b3);
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.main-button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.4);
+}
+
+/* Footer */
+footer {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Fond semi-transparent */
+    position: absolute; /* Reste collé en bas */
+    bottom: 0;
+}
+
+/* Boutons dans le footer */
+.footer-button {
+    padding: 15px 40px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: linear-gradient(45deg, #28a745, #218838);
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    margin: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.footer-button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+}
